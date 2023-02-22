@@ -156,7 +156,7 @@ const humanBodySpots = [
 humanBodySpots.forEach((d) => {
   const html = `<g transform="translate(${d.x}, ${d.y})">
     <g class="star" fill="white" stroke-width="0" transform="scale(0.2)" data-tippy-content="${d.text}">
-    <circle r="9" fill="lightblue"> </circle>
+    <circle r="9" class="circle"> </circle>
     </g>
     </g>`;
 
@@ -165,8 +165,9 @@ humanBodySpots.forEach((d) => {
 
 
 tippy('[data-tippy-content]', {
-    trigger: 'click',
     theme: 'light',
+    placement: 'right', 
+    arrow: false,
 });
 
 

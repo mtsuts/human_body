@@ -1,66 +1,77 @@
-html, body {
-    margin: 0px;
-    padding: 0
+html,
+body {
+  margin: 0px;
+  padding: 0;
+  background-color: #555555;
 }
 
 .svg-container {
-    display: block;
-    max-width: 750px;
-    margin: 100px auto ;
+  display: block;
+  max-width: 750px;
+  margin: 100px auto;
 }
 
 .star {
-    pointer-events: all;
+  pointer-events: all;
+}
+.star:focus {
+    outline: none;
 }
 
 .body {
-    fill: burlywood;
+  fill: #ffcc99;
+  stroke: black;
+  stroke-width: 0.5;
+  stroke-dasharray: 4;
 }
-
 
 .text-right {
-    text-align: end;
+  text-align: end;
 }
 
-.tippy-content {
-    border-radius: 15px;
-}
 
 .tippy-box {
-    border-radius: 15px;
+  border-radius: 3px !important;
 }
+.circle {
+  transition: r 0.3s;
+  fill: #3598DC;
+}
+
+.circle:hover {
+  stroke: rgba(224, 101, 101, 0.585);
+  stroke-width: 2;
+  r: 15;
+}
+
 
 
 @media (min-width: 768px) {
-    html, body {
-        margin: 0px;
-        padding: 0
-    }
-    
-    .svg-container {
-        display: block;
-        max-width: 750px;
-        margin: 0 auto;
-    }
-    
-    .star {
-        pointer-events: all;
-    }
-    
-    .body {
-        fill: burlywood;
-    }
-    
-    
-    .text-right {
-        text-align: end;
-    }
-    
-    .tippy-content {
-        border-radius: 15px;
-    }
-    
-    .tippy-box {
-        border-radius: 15px;
-    }
+  html,
+  body {
+    margin: 0px;
+    padding: 0;
+  }
+
+  .svg-container {
+    display: block;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  .star {
+    pointer-events: all;
+  }
+
+  .text-right {
+    text-align: end;
+  }
+
+  .tippy-content {
+    border-radius: 15px;
+  }
+
+  .tippy-box {
+    border-radius: 15px;
+  }
 }
