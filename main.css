@@ -1,0 +1,66 @@
+html, body {
+    margin: 0px;
+    padding: 0
+}
+
+.svg-container {
+    display: block;
+    max-width: 750px;
+    margin: 100px auto ;
+}
+
+.star {
+    pointer-events: all;
+}
+
+.body {
+    fill: burlywood;
+}
+
+
+.text-right {
+    text-align: end;
+}
+
+.tippy-content {
+    border-radius: 15px;
+}
+
+.tippy-box {
+    border-radius: 15px;
+}
+
+
+@media (min-width: 768px) {
+    html, body {
+        margin: 0px;
+        padding: 0
+    }
+    
+    .svg-container {
+        display: block;
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    
+    .star {
+        pointer-events: all;
+    }
+    
+    .body {
+        fill: burlywood;
+    }
+    
+    
+    .text-right {
+        text-align: end;
+    }
+    
+    .tippy-content {
+        border-radius: 15px;
+    }
+    
+    .tippy-box {
+        border-radius: 15px;
+    }
+}
