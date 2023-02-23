@@ -142,7 +142,7 @@ const humanBodySpots = [
     align: 'left'
   },
   {
-    text: "toe",
+    text: "ankle",
     x: 111,
     y: 188,
     width: 100,
