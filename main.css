@@ -74,4 +74,15 @@ body {
   .tippy-box {
     border-radius: 15px;
   }
+  .circle {
+    transition: r 0.3s;
+    fill: #3598DC;
+  }
+  
+  .circle:hover {
+    stroke: rgba(224, 101, 101, 0.585);
+    stroke-width: 2;
+    r: 15;
+  }
+
 }
